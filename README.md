@@ -3,6 +3,13 @@
 #include <random>
 using namespace std;
 
+void tablero(){
+  for(int i = 0; i < 9; i ++){
+    cout << endl;
+    cout <<"--|---|---|---|---|---|---|---|---| "<< endl;
+  }
+}
+
 void juego(){
     // --- SUDOKU DONDE NOSOTROS LLENAMOS --- //
     int sudoku[9][9]= {};
@@ -297,6 +304,6 @@ void juego2(){
 
 }
 int main() {
-    juego();
+    juego2();
     return 0;
 }
